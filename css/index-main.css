@@ -1,0 +1,236 @@
+/* ---MAIN-------------------------------------------------------*/
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.ligne {
+  height: 0.1rem;
+  background-color: rgb(182, 105, 105);
+  margin: 0 10%;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  color: black;
+  font-family: Dancing Script;
+  font-size: 2rem;
+  margin: 1.5rem 0rem 1.5rem;
+  text-align: center;
+}
+
+h4 {
+  margin: 0rem 0rem 1rem 0rem;
+  font-size: 1.2rem;
+  font-family: nunito;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+main {
+  letter-spacing: 0.1rem;
+}
+
+.container-type1,
+.container-type2 {
+  margin: 0.7rem;
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.container-type1 {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  align-items: start;
+}
+
+.offre-type2 {
+  padding: 20px;
+  border-left: solid black 2px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.offre {
+  border-left: solid black 2px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.duree-soins-visage {
+  margin-top: 40px;
+  text-align: right;
+  min-height: 288px;
+}
+
+.duree-soins-corps {
+  margin-top: 40px;
+  text-align: right;
+}
+
+div.superposition div.image {
+  transform: translateY(6%) translateX(-6%);
+}
+
+div.superposition img {
+  width: 100%;
+}
+
+div.superposition-titre {
+  position: absolute;
+  right: 0px;
+
+  top: 50px;
+  color: rgb(2, 2, 2);
+  background-color: rgb(255, 255, 255, 0.8);
+  z-index: 2;
+  padding: 0.4rem;
+  font-size: larger;
+}
+
+div.superposition-titre h4 {
+  margin: 0px;
+}
+
+div.superposition {
+  position: relative;
+  height: auto;
+  height: 0;
+  width: 90%;
+  padding-bottom: 90%;
+  margin-left: 7.5%;
+  background-color: #de9b77f1;
+}
+
+/*---------------------------------*/
+
+.bouton {
+  margin: 40px;
+  text-align: center;
+}
+
+.bouton a {
+  font-size: 1em;
+}
+
+/* ---MEDIA-QUERY------------------------------------------------------------------ */
+
+@media screen and (max-width: 480px) {
+  .container-parent {
+    margin-bottom: 20px;
+  }
+
+  .offre-type2 {
+    vertical-align: middle;
+  }
+
+  main {
+    margin: 0 5%;
+  }
+
+  .exception {
+    text-align: left;
+    margin-top: -1rem;
+    line-break: strict;
+  }
+
+  .except1 {
+    margin-top: 1rem;
+  }
+
+  .except2 {
+    margin-top: 2rem;
+  }
+}
+
+/*--------------------------*/
+
+@media screen and (min-width: 780px) {
+  .container-type2 {
+    font-size: 1rem;
+    vertical-align: middle;
+    margin-left: 6%;
+    line-height: 2.2em;
+  }
+
+  .container-type1 {
+    font-size: 1rem;
+    line-height: 2.2em;
+  }
+
+  .container-parent {
+    margin: 0 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+  }
+
+  .exception {
+    margin-top: -1.1rem;
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  .except3 {
+    margin-top: 1rem;
+  }
+
+  .except2 {
+    margin-top: 2rem;
+  }
+
+  .except4 {
+    margin-top: -1rem;
+  }
+}
+
+/*-------------------------*/
+
+@media screen and (min-width: 1200px) {
+  .container-parent {
+    margin: 0 9%;
+    margin-bottom: 80px;
+  }
+
+  .exception {
+    margin-top: -0.8rem;
+  }
+
+  .container-type2 {
+    margin-left: 10%;
+    line-height: 2.5em;
+  }
+
+  .inline,
+  .inline2 {
+    display: inline;
+  }
+
+  .except4 {
+    margin-top: -1.2rem;
+  }
+
+  .except3 {
+    margin-top: 0rem;
+  }
+
+  .except2 {
+    margin-top: 1.4rem;
+  }
+}
