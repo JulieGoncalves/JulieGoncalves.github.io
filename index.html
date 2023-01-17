@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hafibeauty_makeup</title>
+
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="/css/sidenav.css" />
     <link rel="stylesheet" href="/css/index-main.css" />
     <link rel="stylesheet" href="/css/index-header.css" />
     <link rel="stylesheet" href="/css/index-footer.css" />
-    <link rel="stylesheet" href="/css/index-galerie.css" />
-    <link rel="stylesheet" href="/css/index-produits.css" />
+    <link rel="stylesheet" href="/css/galerie.css" />
+    <link rel="stylesheet" href="/css/produits.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     <link
       rel="icon"
@@ -34,14 +38,15 @@
   <div class="baniere">
     <img class="logo" src="/images/main/logo-rond.6.png" alt="logo-hafi" />
     <div class="titres">
-      <h1>Hafi</h1>
-      <h2>beauty</h2>
-      <h2 class="h2">makeup</h2>
+      <span
+        ><h1>Hafibeauty_makeup</h1>
+        <h2>La beauté est un art</h2></span>
     </div>
   </div>
 
-  <div class="navbar">
+  <div id="mySidenav" class="navbar sidenav">
     <ul class="menu-items">
+      <a id="closeBtn" href="#" class="close">x</a>
       <li><a href="index.html">ACCUEIL</a></li>
       <li><a href="conseils_beaute.html">CONSEILS BEAUTÉ</a></li>
       <li><a href="galerie.html">GALERIE</a></li>
@@ -49,10 +54,30 @@
     </ul>
   </div>
   <div class="ligne"></div>
+
+  <a href="#" id="openBtn">
+    <span class="burger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </a>
 </header>
  <main>
   <div class="container-type1">
     <h3>Esthéticienne à domicile</h3>
+  </div>
+  <!---BIOGRAPHIE--------------------------------->
+  <div class="biographie">
+    "Passionnée depuis toujours par le domaine de l’esthétique et du makeup. Je
+    me suis spécialisée dans la beauté du regard et du soin à domicile. Formée à
+    l'académie make Up For Ever, je suis également maquilleuse Professionnelle.
+    Pour tous vos événements, je vous propose un maquillage simple, sophistiqué
+    ou mariée. La qualité de chaque prestation est ma priorité afin de vous
+    satisfaire. Je travaille avec des produits de très bonne qualité reconnus
+    mondialement pour un véritable moment de bien-être, de détente et de
+    beauté."
+    <p class="signature">Hafi</p>
   </div>
 
   <!---MAQUILLAGE-SEMI-PERMANENT--------------------------------->
@@ -60,15 +85,34 @@
   <div class="container-parent">
     <div class="superposition">
       <div class="image">
-        <img src="/images/main/portrait-femme.jpg" alt="soins du visage" />
+        <img
+          src="/images/main/portrait-femme.jpg"
+          alt="maquillage semi-permanent"
+        />
       </div>
-      <div class="superposition-titre"><h4>Maquillage semi permanent</h4></div>
+      <div class="superposition-titre position-bas"><h4 class="retour-ligne ">Maquillage semi permanent</h4></div>
     </div>
 
     <div class="container-type2">
       <div class="offre-type2">
         <div>Microbleding</div>
         <div>Microshading</div>
+      </div>
+    </div>
+  </div>
+
+  <!---MAQUILLAGE--------------------------------->
+
+  <div class="container-parent">
+    <div class="superposition">
+      <div class="image">
+        <img src="/images/main/maquillage-beauté.jpg" alt="maquillage beauté" />
+      </div>
+      <div class="superposition-titre position-bas"><h4>Maquillage beauté</h4></div>
+    </div>
+
+    <div class="container-type2">
+      <div class="offre-type2">
         <div>Maquillage flash</div>
         <div>Maquillage soirée</div>
         <div>Leçon de maquillage personnalisé</div>
