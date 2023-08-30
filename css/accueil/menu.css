@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+
+.top-side {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.bottom-side {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
+.hover {
+  position: absolute;
+  float: left;
+  height: 40px;
+  width: 70%;
+  margin: 0 15%;
+  cursor: none;
+  overflow: hidden;
+}
+
+.blur {
+  position: absolute;
+  font-family: "Overpass", sans-serif;
+  font-size: 40px;
+  letter-spacing: 20px;
+  margin: auto;
+  width: 100%;
+  filter: blur(4px);
+  cursor: none;
+  overflow: hidden;
+  text-align: center;
+  z-index: 3;
+}
+
+.focus {
+  position: relative;
+  font-family: "Overpass", sans-serif;
+  font-size: 40px;
+  letter-spacing: 20px;
+  margin: auto;
+  width: 100%;
+  height: 40px;
+  filter: blur(0px);
+  cursor: none;
+  overflow: hidden;
+  text-align: center;
+  z-index: 2;
+}
+
+.ap {
+  letter-spacing: 13px;
+}
+
+.container-menu {
+  position: relative;
+  height: auto;
+  width: 3fr;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover, a {
+  text-decoration: none;
+}

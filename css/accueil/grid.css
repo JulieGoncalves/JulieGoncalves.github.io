@@ -1,0 +1,71 @@
+.grid {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 5fr 3fr;
+  grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-rows: none;
+  grid-auto-rows: auto;
+  z-index: 12;
+  /* position:relative; */
+}
+
+/*---ACCUEIL----------------------------*/
+/*--------------------------------------*/
+
+/* palette */
+.grid-row-1-column-3 {
+  padding-right: 10%;
+  position: relative;
+}
+
+/* blob + h1 */
+.grid-row-2-column-2 {
+  padding: 0 5% 0 5%;
+  grid-row-end: span 2;
+}
+
+/* menu */
+.grid-row-2-column-3 {
+  padding-right: 10%;
+  margin: 0 0 0 auto;
+  grid-row-end: span 2;
+}
+
+/*---PROJETS----------------------------*/
+/*--------------------------------------*/
+
+.grid-row-4-column-1,
+.grid-row-4-column-2,
+.grid-row-4-column-3 {
+  margin-top: 150px;
+}
+
+/*---A-PROPOS---------------------------*/
+/*--------------------------------------*/
+
+/*---Motifs-lune-oeil-soleil------------*/
+
+.grid-2 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.grid-cell {
+  width: 100%;
+  height: 100%;
+}
+
+/*---CONTACT----------------------------*/
+/*--------------------------------------*/
+
+/* ROW-8 */
+
+.grid-row-8-column-1,
+.grid-row-8-column-2,
+.grid-row-8-column-3 {
+  margin-top: 150px;
+}

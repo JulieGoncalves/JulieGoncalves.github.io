@@ -1,0 +1,23 @@
+/* COULEURS */
+
+/* TITRES */
+
+h2 {
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
+  text-align: center;
+  bottom: 0;
+  font-size: 1.3em;
+  /* border : 2px solid red; */
+}
+
+h3 {
+  width: 40%;
+  z-index: 10;
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.2em;
+}

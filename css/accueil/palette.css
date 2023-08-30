@@ -1,0 +1,481 @@
+/*----------------STYLE-BOUTONS-PALETTE-*/
+/*--------------------------------------*/
+
+.palette {
+  padding: 5% 0;
+  text-align: end;
+}
+
+#palette1,
+#palette2,
+#palette3 {
+  border: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+
+#palette1 {
+  background-color: #2d16c1;
+}
+
+#palette2 {
+  background-color: rgb(255, 255, 255);
+  display: none;
+}
+
+#palette3 {
+  background-color: rgb(252, 89, 206);
+}
+
+/*-----------------------PALETTE-ROSE---*/
+/*--------------------------------------*/
+
+body {
+  background: #ffc6f5;
+}
+
+/*---ACCUEIL----------------------------*/
+/*---blob-------------------------------*/
+
+p.para {
+  color: #2d16c1;
+}
+
+.couleur1Blob {
+  stop-color: rgb(255, 255, 255);
+}
+
+.rose {
+  stop-color: #f05cd5;
+}
+
+h1,
+h2 {
+  color: rgb(21, 21, 166);
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(186, 113, 184);
+}
+
+/*---bare-laterale---------------------*/
+
+.vertical-ligne {
+  border-left: #2d16c1 3px solid;
+}
+
+.vertical-txt {
+  color: #2d16c1;
+}
+
+/*---icones----------------------------*/
+
+.icone {
+  fill: #2d16c1;
+}
+
+/*---curseur---------------------------*/
+
+.circleInt {
+  background-color: rgb(45, 22, 193);
+  z-index: 30;
+}
+
+.circle {
+  border: #2d16c1 2px solid;
+  z-index: 30;
+}
+
+/*---menu-------------------------------*/
+
+.top-side {
+  background: #ffc6f5;
+}
+
+.bottom-side {
+  background: rgb(255, 198, 245);
+}
+
+.blur {
+  color: #ffffff;
+}
+
+.focus {
+  color: #ffffff;
+}
+
+/*---PROJET-----------------------------*/
+
+.linear-gradient {
+  background: linear-gradient(#ffc6f5, #2d16c1);
+}
+
+/*---CONTACT----------------------------*/
+
+.titre-contact-it,
+.titre-contact {
+  color: rgb(255, 255, 255);
+}
+
+input.btn-envoyer {
+  background-color: #ffc6f5;
+  color: #2d16c1;
+}
+
+/*----------------------PALETTE-BLEUE---*/
+/*--------------------------------------*/
+
+body.bleu {
+  background-color: #2d16c1;
+}
+
+/*---ACCUEIL----------------------------*/
+
+#palette1.bleu,
+#palette1.blan {
+  height: 19px;
+  width: 19px;
+  background-color: #2d16c1;
+  border: 1px solid #ffffff;
+}
+
+/*---blob------------------------------*/
+
+p.para.bleu {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Bodoni Moda", serif;
+}
+
+.bleu {
+  stop-color: #2d16c1;
+}
+
+.h1-l1.bleu {
+  color: #ffc6f5;
+}
+
+.h1-l2.bleu {
+  color: #ffffff;
+}
+
+.h1-l3.bleu {
+  font-style: italic;
+  color: #ffc6f5;
+}
+
+/*---bare-laterale----------------------*/
+
+.vertical-ligne.bleu {
+  border-left: #ffc6f5 3px solid;
+}
+
+.vertical-txt.bleu {
+  color: #ffc6f5;
+}
+
+/*---rayures----------------------------*/
+
+.rayures.bleu {
+  background: linear-gradient(
+    90deg,
+    #ffc6f5 12.5%,
+    #2d16c1 12.5%,
+    #2d16c1 37.5%,
+    #ffc6f5 37.5%,
+    #ffc6f5 62.5%,
+    #2d16c1 62.5%,
+    #2d16c1 87.5%,
+    #ffc6f5 87.5%
+  );
+  background-size: 25px 25px;
+  background-position: 25px 25px;
+}
+
+/*---icones----------------------------*/
+
+.icone.bleu {
+  fill: #ffc6f5;
+}
+
+/*---curseur---------------------------*/
+
+.circleInt.bleu {
+  background-color: #ffc6f5;
+}
+
+.circle.bleu {
+  border: #ffc6f5 2px solid;
+}
+
+/*---menu-------------------------------*/
+
+.bottom-side.bleu {
+  background: #2d16c1;
+}
+
+.top-side.bleu {
+  background: #2d16c1;
+}
+
+/*---PROJETS----------------------------*/
+
+.vertical-txt-p.bleu {
+  color: #ffc6f5;
+}
+
+h2.bleu {
+  color: #ffc6f5;
+}
+
+.h2-l1-p.bleu {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #ffc6f5;
+}
+
+.h2-l2-p.bleu {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #ffc6f5;
+}
+
+.linear-gradient.bleu {
+  background: linear-gradient(#2d16c1, #ffc6f5);
+}
+
+/*---A-PROPOS---------------------------*/
+
+.h2-l1-ap.bleu {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px#2d16c1;
+}
+
+.h2-l2-ap.bleu {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px rgb(45, 22, 193);
+}
+
+/*---CONTACT----------------------------*/
+
+.form-envoi.bleu {
+  margin: auto;
+}
+
+input.btn-envoyer.bleu {
+  background-color: #ffffff;
+  color: #b616c1;
+  box-shadow: 1px 1px 1px#ffc6f5;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  margin-top: 25px;
+  padding: 20px 20px;
+  height: 1.2em;
+  background-color: inherit;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus {
+  background-color: rgba(19, 143, 106, 0.3);
+  color: white;
+}
+
+/*--------------------PALETTE-BLANCHE---*/
+/*--------------------------------------*/
+
+body.blanc {
+  background: #ffffff;
+}
+
+/*---ACCUEIL----------------------------*/
+
+/*---blob------------------------------*/
+
+.blanc {
+  stop-color: #2d16c1;
+}
+
+p.para.blanc {
+  color: #2d16c1;
+}
+
+.h1-l1.blanc,
+.h1-l2.blanc,
+.h1-l3.blanc {
+  color: #2d16c1;
+}
+
+/*---bare-laterale----------------------*/
+
+.vertical-ligne.blanc {
+  border-left: #ffc6f5 3px solid;
+}
+
+.vertical-txt.blanc {
+  color: #ffc6f5;
+}
+
+.grid-row-1-column-1.blanc,
+.grid-row-1-column-2.blanc,
+.grid-row-1-column-3.blanc,
+.grid-row-2-column-1.blanc,
+.grid-row-3-column-1.blanc {
+  background-color: #2d16c1;
+}
+
+.vertical-ligne.blanc {
+  border-left: #ffffff 3px solid;
+}
+
+.vertical-txt.blanc {
+  color: #ffffff;
+}
+
+/*---icones----------------------------*/
+
+.icone.blanc {
+  fill: #ffffff;
+}
+
+/*---curseur---------------------------*/
+
+.circleInt.blanc {
+  background-color: #ffffff;
+}
+
+.circle.blanc {
+  border: #2d16c1 2px solid;
+}
+
+/*---menu-------------------------------*/
+
+.bottom-side.blanc {
+  background: #2e2471;
+}
+
+.top-side.blanc {
+  background: #ffffff;
+}
+
+.blur.blanc {
+  color: #c116a5;
+}
+
+.focus.blanc {
+  color: #c11646;
+}
+
+.hover.blanc {
+  color: red;
+}
+
+.container-a-propos.blanc {
+  color: red;
+}
+/*---PROJETS----------------------------*/
+
+.vertical-txt-p.blanc {
+  color: #ffc6f5;
+}
+
+h2.blanc {
+  color: #ffc6f5;
+}
+
+.h2-l1-p.blanc {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #ffc6f5;
+}
+
+.h2-l2-p.blanc {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #ffc6f5;
+}
+
+.linear-gradient.blanc {
+  background: linear-gradient(#2d16c1, #ffc6f5);
+}
+
+/*---A-PROPOS---------------------------*/
+
+.h2-l1-ap.blanc {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px#2d16c1;
+}
+
+.h2-l2-ap.blanc {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px rgb(45, 22, 193);
+}
+
+/*---CONTACT----------------------------*/
+
+.form-envoi.blanc {
+  margin: auto;
+}
+
+input.btn-envoyer.blanc {
+  background-color: #ffffff;
+  color: #b616c1;
+  box-shadow: 1px 1px 1pxrgb (255, 198, 245);
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  margin-top: 25px;
+  padding: 20px 20px;
+  height: 1.2em;
+  background-color: inherit;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus {
+  background-color: rgba(19, 143, 106, 0.3);
+  color: white;
+}
+
+
+/*-------------------------------------*/
+/*---MEDIAS-QUERIES--------------------*/
+
+@media only screen and (max-width: 420px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+.grid > * {
+  display: block;
+}
+
+.grid-2 {
+  border : 2px solid red;
+}
+/*---accueil----------------------------*/
+
+.palette,
+#palette1,
+#palette2,
+#palette3,
+.container-menu {
+  display: none;
+}
+
+.grid-row-1-column-1,.grid-row-1-column-2,.grid-row-2-column-3,.grid-row-3-column-1,
+.grid-row-1-column-3 {
+  display: none;
+}  
+
+}

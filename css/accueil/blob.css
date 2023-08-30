@@ -1,0 +1,98 @@
+/* BLOB */
+
+#container-blob-texte {
+  position: relative;
+  margin: auto;
+}
+
+#container-blob-texte .blob {
+  position: relative;
+  filter: blur(5px);
+}
+
+#container-blob-texte .bio {
+  vertical-align: middle;
+  text-align: justify;
+  color: rgb(21, 21, 166);
+  position: absolute;
+  top: 40%;
+  font-family: "Bodoni Moda", serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0 15%;
+  margin: -20% auto ;
+}
+
+#rel1 .para {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.h1-l1 {
+  font-size: 150px;
+}
+
+.h1-l2 {
+  font-size: 90px;
+}
+
+.h1-l3 {
+  font-size: 110px;
+  font-style: italic;
+}
+
+.titres-blob h1 {
+  font-family: "Playfair Display";
+  text-align: justify;
+  text-transform: uppercase;
+  line-height: 10px;
+  display: block;
+}
+
+.tt {
+  text-align: end;
+}
+
+/*-------------------------------------*/
+/*---MEDIAS-QUERIES--------------------*/
+
+@media only screen and (max-width: 420px) {
+
+.container-icones {
+  text-align: center;
+}
+
+.icone {
+  display: inline-block;
+}
+
+p.para {
+  text-align: center;
+  font-size: 2px;
+}
+
+.h1-l1 {
+  font-size: 110px;
+}
+
+.h1-l2 {
+  font-size: 65px;
+}
+
+.h1-l3 {
+  font-size: 80px;
+  font-style: italic;
+}
+
+.titres-blob {
+  border: 2px solid red;
+  justify-content: center;
+  top: 0;
+}
+
+.grid-row-2-column-2 {
+  border: 2px solid red;
+  padding: 0;
+  position: relative;
+}
+}
